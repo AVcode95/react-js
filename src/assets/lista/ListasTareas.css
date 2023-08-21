@@ -1,0 +1,42 @@
+/* Estilos para la tabla */
+.tareas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para las celdas de la tabla */
+  .tareas-table th,
+  .tareas-table td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Estilos para la fila de encabezado de la tabla */
+  .tareas-table th {
+    background-color: #fe0000;
+  }
+  
+  /* Estilos para las filas de datos de la tabla */
+  .tareas-table tbody tr:nth-child(even) {
+    background-color: #ff0000;
+    color: rgb(1, 1, 1);
+  }
+  
+  /* Estilos para los botones de acción */
+  .btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #5653fd;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+    
+  }
+  
